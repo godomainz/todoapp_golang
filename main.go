@@ -13,6 +13,8 @@ func main() {
 	fmt.Println("###### Welcome to our Todolist App! ######")
 
 	fmt.Println("List of my Todos")
-	fmt.Println("Taks:",taskItems)
+	for _, task:=range(taskItems) {
+		fmt.Println(task)
+	}
 
 }
