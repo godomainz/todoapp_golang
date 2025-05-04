@@ -4,28 +4,15 @@ import "fmt"
 
 func main() {
 
-	var shortGoLang = "Watch go crash course";
-	var fullGoLang = "Watch Nana's Golang Full Course";
-	var rewardDEssert = "Reward myself with a cheesecake"
+	shortGoLang := "Watch go crash course";
+	fullGoLang := "Watch Nana's Golang Full Course";
+	rewardDEssert := "Reward myself with a cheesecake"
+
+	taskItems := []string {shortGoLang, fullGoLang, rewardDEssert}
 
 	fmt.Println("###### Welcome to our Todolist App! ######")
 
 	fmt.Println("List of my Todos")
-	fmt.Println(shortGoLang)
-	fmt.Println(fullGoLang)
-	fmt.Println(rewardDEssert)
-
-	fmt.Println()
-	fmt.Println("Tutorials")
-	fmt.Println(shortGoLang)
-	fmt.Println(fullGoLang)
-
-	fmt.Println()
-	fmt.Println("Rewards")
-	fmt.Println(rewardDEssert)
-
-	fmt.Println()
-	fmt.Println("My Project")
-	fmt.Println(fullGoLang)
+	fmt.Println("Taks:",taskItems)
 
 }
